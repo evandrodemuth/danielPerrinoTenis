@@ -1,1 +1,32 @@
-# danielPerrinoTenis
+# Perrino Tênis — site do Daniel Perrino
+
+Site estático (HTML, CSS e JavaScript puros, sem build) para o treinador de tênis Daniel Perrino.
+
+## Seções
+
+- **Início**: chamada principal e botão para agendar a aula experimental
+- **Sobre**: apresentação do Daniel e os pilares do trabalho (técnica, tática, físico/mental)
+- **Aulas**: particular, dupla/grupo, infantil e competição
+- **Método**: avaliação → plano → treino → jogo
+- **Instagram**: link para [@perrinotenis](https://www.instagram.com/perrinotenis/)
+- **Dúvidas**: perguntas frequentes
+- **Contato**: formulário que monta a mensagem e abre o WhatsApp
+
+## Ver localmente
+
+```bash
+python3 -m http.server 8000
+# abra http://localhost:8000
+```
+
+## Ajustes futuros
+
+| O quê | Onde |
+| --- | --- |
+| Endereço completo da imagem de compartilhamento, quando houver domínio próprio | `index.html`, meta `og:image` |
+
+## Publicar
+
+Como é um site estático, dá para publicar de graça no **GitHub Pages**
+(Settings → Pages → branch `main`, pasta `/`), na **Netlify** ou na **Vercel**
+(é só arrastar a pasta ou conectar o repositório).

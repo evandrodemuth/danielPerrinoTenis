@@ -19,15 +19,11 @@ python3 -m http.server 8000
 # abra http://localhost:8000
 ```
 
-## O que falta preencher
-
-Procure por `EDITAR` nos arquivos.
+## Ajustes futuros
 
 | O quê | Onde |
 | --- | --- |
-| Texto do "Sobre": formação, anos de experiência, clubes, conquistas | `index.html`, seção `#sobre` |
-| Local das aulas | `index.html`, FAQ "Onde acontecem as aulas?" |
-| Endereço completo da imagem de compartilhamento, quando houver domínio | `index.html`, meta `og:image` |
+| Endereço completo da imagem de compartilhamento, quando houver domínio próprio | `index.html`, meta `og:image` |
 
 ## Publicar
 

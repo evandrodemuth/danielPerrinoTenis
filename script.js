@@ -7,8 +7,8 @@
 // WhatsApp sem destinatário, para o visitante escolher o contato.
 const WHATSAPP_NUMBER = "";
 
-// EDITAR: link do perfil do LinkedIn do Daniel.
-const LINKEDIN_URL = "";
+// Link do perfil do LinkedIn do Daniel.
+const LINKEDIN_URL = "https://www.linkedin.com/in/daniel-perrino-8bbb86a8/";
 
 document.documentElement.classList.remove("no-js");
 

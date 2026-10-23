@@ -19,11 +19,12 @@ python3 -m http.server 8000
 # abra http://localhost:8000
 ```
 
-## Ajustes futuros
+## No ar
 
-| O quê | Onde |
-| --- | --- |
-| Endereço completo da imagem de compartilhamento, quando houver domínio próprio | `index.html`, meta `og:image` |
+https://evandrodemuth.github.io/danielPerrinoTenis/ (GitHub Pages, branch `main`, pasta `/`).
+
+Se o site ganhar domínio próprio, atualize os endereços completos em `og:url`,
+`og:image`, `canonical` e nos dados estruturados do `index.html`.
 
 ## Publicar
 

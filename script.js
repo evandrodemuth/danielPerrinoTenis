@@ -2,10 +2,8 @@
 // Perrino Tênis — interações
 // ==========================================================================
 
-// EDITAR: número de WhatsApp do Daniel (DDI + DDD + número, só dígitos).
-// Exemplo: "5511999998888". Enquanto estiver vazio, o formulário abre o
-// WhatsApp sem destinatário, para o visitante escolher o contato.
-const WHATSAPP_NUMBER = "";
+// Número de WhatsApp do Daniel (DDI + DDD + número, só dígitos).
+const WHATSAPP_NUMBER = "5511989581877";
 
 // Link do perfil do LinkedIn do Daniel.
 const LINKEDIN_URL = "https://www.linkedin.com/in/daniel-perrino-8bbb86a8/";
@@ -62,11 +60,13 @@ const whatsappUrl = (text) => {
   return `${base}?text=${encodeURIComponent(text)}`;
 };
 
-const fab = document.querySelector("[data-whatsapp-fab]");
-if (fab && WHATSAPP_NUMBER) {
-  fab.href = whatsappUrl("Olá, Daniel! Vim pelo site e gostaria de saber mais sobre as aulas de tênis.");
-  fab.target = "_blank";
-  fab.rel = "noopener";
+if (WHATSAPP_NUMBER) {
+  const greeting = whatsappUrl("Olá, Daniel! Vim pelo site e gostaria de saber mais sobre as aulas de tênis.");
+  document.querySelectorAll("[data-whatsapp-fab], [data-whatsapp-link]").forEach((link) => {
+    link.href = greeting;
+    link.target = "_blank";
+    link.rel = "noopener";
+  });
 }
 
 const linkedin = document.querySelector("[data-linkedin]");

@@ -25,10 +25,9 @@ Procure por `EDITAR` nos arquivos.
 
 | O quê | Onde |
 | --- | --- |
-| Foto do Daniel, retrato ~900×1100 (sem ela aparece o monograma "DP") | `assets/daniel.jpg` |
 | Texto do "Sobre": formação, anos de experiência, clubes, conquistas | `index.html`, seção `#sobre` |
 | Local das aulas | `index.html`, FAQ "Onde acontecem as aulas?" |
-| Imagem de compartilhamento 1200×630 | `assets/og-image.jpg` + descomentar a meta `og:image` |
+| Endereço completo da imagem de compartilhamento, quando houver domínio | `index.html`, meta `og:image` |
 
 ## Publicar
 

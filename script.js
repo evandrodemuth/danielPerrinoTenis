@@ -46,14 +46,6 @@ if ("IntersectionObserver" in window) {
   revealEls.forEach((el) => el.classList.add("is-visible"));
 }
 
-// Foto do Daniel: mostra o monograma enquanto assets/daniel.jpg não existir
-const photo = document.querySelector("[data-photo]");
-if (photo) {
-  const hide = () => { photo.hidden = true; };
-  if (photo.complete && photo.naturalWidth === 0) hide();
-  photo.addEventListener("error", hide);
-}
-
 // Links externos configuráveis
 const whatsappUrl = (text) => {
   const base = WHATSAPP_NUMBER ? `https://wa.me/${WHATSAPP_NUMBER}` : "https://wa.me/";
